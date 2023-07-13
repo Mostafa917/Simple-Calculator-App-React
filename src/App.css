@@ -1,0 +1,18 @@
+.customButtonStyle{
+    width: 10%;
+}
+.customClearButtonStyle{
+    width: 40%;
+    background-color: #ece038 !important;
+}
+.resultTextStyle{
+    background-color: rgb(102, 219, 24);
+    height: 80px;
+}
+.calculatorBody{
+    height: 100%;
+    
+}
+.resultValStyle{
+    width: 26%;
+}
