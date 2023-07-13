@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import NumberButton from "./components/NumberButton";
+import CalculatorButton from "./components/CalculatorButton";
 
 function App() {
   let [calculationText, SetCalculationText] = useState("");
@@ -32,7 +32,7 @@ function App() {
       </section>
       <section className="calculatorBody bg-secondary py-3">
         <div className="text-center mx-auto pb-2">
-          <NumberButton
+          <CalculatorButton
             contentText={"Clear"}
             buttonColor="light"
             resultText={calculationText}
@@ -45,7 +45,7 @@ function App() {
           />
         </div>
         <div className="text-center mx-auto">
-          <NumberButton
+          <CalculatorButton
             contentText={"x²"}
             buttonColor="success"
             resultText={calculationText}
@@ -56,7 +56,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"√x"}
             buttonColor="success"
             resultText={calculationText}
@@ -67,7 +67,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"Cont."}
             buttonColor="success"
             resultText={calculationText}
@@ -78,7 +78,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"⌫"}
             buttonColor="danger"
             resultText={calculationText}
@@ -91,7 +91,7 @@ function App() {
           />
         </div>
         <div className="text-center mx-auto">
-          <NumberButton
+          <CalculatorButton
             contentText={"7"}
             buttonColor="light"
             resultText={calculationText}
@@ -102,7 +102,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"8"}
             buttonColor="light"
             resultText={calculationText}
@@ -113,7 +113,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"9"}
             buttonColor="light"
             resultText={calculationText}
@@ -124,7 +124,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"×"}
             buttonColor="primary"
             resultText={calculationText}
@@ -137,7 +137,7 @@ function App() {
           />
         </div>
         <div className="text-center">
-          <NumberButton
+          <CalculatorButton
             contentText={"4"}
             buttonColor="light"
             resultText={calculationText}
@@ -148,7 +148,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"5"}
             buttonColor="light"
             resultText={calculationText}
@@ -159,7 +159,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"6"}
             buttonColor="light"
             resultText={calculationText}
@@ -170,7 +170,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"÷"}
             buttonColor="primary"
             resultText={calculationText}
@@ -183,7 +183,7 @@ function App() {
           />
         </div>
         <div className="text-center">
-          <NumberButton
+          <CalculatorButton
             contentText={"1"}
             buttonColor="light"
             resultText={calculationText}
@@ -194,7 +194,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"2"}
             buttonColor="light"
             resultText={calculationText}
@@ -205,7 +205,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"3"}
             buttonColor="light"
             resultText={calculationText}
@@ -216,7 +216,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"+"}
             buttonColor="primary"
             resultText={calculationText}
@@ -229,7 +229,7 @@ function App() {
           />
         </div>
         <div className="text-center">
-          <NumberButton
+          <CalculatorButton
             contentText={"."}
             buttonColor="light"
             resultText={calculationText}
@@ -240,7 +240,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"0"}
             buttonColor="light"
             resultText={calculationText}
@@ -251,7 +251,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"="}
             buttonColor="info"
             resultText={calculationText}
@@ -262,7 +262,7 @@ function App() {
             UpdateResFlag={HandleResultFlag}
             resultNumber={result}
           />
-          <NumberButton
+          <CalculatorButton
             contentText={"-"}
             buttonColor="primary"
             resultText={calculationText}

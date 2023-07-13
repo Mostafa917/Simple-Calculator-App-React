@@ -12,7 +12,7 @@ interface Probs {
   printResult: (resultVal: number) => void;
 }
 
-function NumberButton({
+function CalculatorButton({
   contentText,
   buttonStyle,
   buttonColor,
@@ -138,4 +138,4 @@ function NumberButton({
   );
 }
 
-export default NumberButton;
+export default CalculatorButton;
